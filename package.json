@@ -1,6 +1,7 @@
 {
   "name": "epam-angular-course",
   "version": "0.0.0",
+  "author": "Stanislav Kovtun",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
