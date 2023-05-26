@@ -1,21 +1,10 @@
-// import { Component } from '@angular/core';
-
-// @Component({
-//   selector: 'app-courses-new-item',
-//   templateUrl: './courses-new-item.component.html',
-//   styleUrls: ['./courses-new-item.component.scss']
-// })
-// export class CoursesNewItemComponent {
-
-// }
-
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+// import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-courses-new-item',
-  standalone: true,
-  imports: [CommonModule],
+  // standalone: true,
+  // imports: [CommonModule],
   templateUrl: './courses-new-item.component.html',
   styleUrls: ['./courses-new-item.component.scss'],
 })

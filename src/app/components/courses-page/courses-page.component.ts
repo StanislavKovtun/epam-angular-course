@@ -1,24 +1,24 @@
 import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { CommonModule } from '@angular/common';
+// import { CommonModule } from '@angular/common';
 
-import { HeaderComponent } from '../header/header.component';
-import { BreadcrumbsComponent } from '../breadcrumbs/breadcrumbs.component';
-import { CoursesComponent } from '../courses/courses.component';
-import { SectionComponent } from '../section/section.component';
+// import { HeaderComponent } from '../header/header.component';
+// import { BreadcrumbsComponent } from '../breadcrumbs/breadcrumbs.component';
+// import { CoursesComponent } from '../courses/courses.component';
+// import { SectionComponent } from '../section/section.component';
 
 import { courses } from 'src/app/common/mock/courses';
 import { ICourse } from 'src/app/common/interfaces/course';
 
 @Component({
   selector: 'app-courses-page',
-  standalone: true,
-  imports: [
-    CommonModule,
-    SectionComponent,
-    HeaderComponent,
-    BreadcrumbsComponent,
-    CoursesComponent,
-  ],
+  // standalone: true,
+  // imports: [
+  //   CommonModule,
+  //   SectionComponent,
+  //   HeaderComponent,
+  //   BreadcrumbsComponent,
+  //   CoursesComponent,
+  // ],
   templateUrl: './courses-page.component.html',
   styleUrls: ['./courses-page.component.scss'],
 })

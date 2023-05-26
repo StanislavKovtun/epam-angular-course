@@ -15,25 +15,27 @@ import { SectionComponent } from './components/section/section.component';
 import { CoursesEditItemComponent } from './components/courses/courses-edit-item/courses-edit-item.component';
 import { CoursesListItemComponent } from './components/courses/courses-list-item/courses-list-item.component';
 import { CoursesNewItemComponent } from './components/courses/courses-new-item/courses-new-item.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    // HeaderComponent,
-    // LogoComponent,
+    HeaderComponent,
+    LogoComponent,
     FooterComponent,
-    // CoursesComponent,
-    // BreadcrumbsComponent,
-    // CoursesPageComponent,
-    // LoginComponent,
-    // SectionComponent,
-    // CoursesEditItemComponent,
-    // CoursesListItemComponent,
-    // CoursesNewItemComponent
+    CoursesComponent,
+    BreadcrumbsComponent,
+    CoursesPageComponent,
+    LoginComponent,
+    SectionComponent,
+    CoursesEditItemComponent,
+    CoursesListItemComponent,
+    CoursesNewItemComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

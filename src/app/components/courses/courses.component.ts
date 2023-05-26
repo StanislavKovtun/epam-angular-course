@@ -1,12 +1,12 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { CoursesListItemComponent } from './courses-list-item/courses-list-item.component';
+// import { CommonModule } from '@angular/common';
+// import { CoursesListItemComponent } from './courses-list-item/courses-list-item.component';
 import { ICourse } from 'src/app/common/interfaces/course';
 
 @Component({
   selector: 'app-courses',
-  standalone: true,
-  imports: [CommonModule, CoursesListItemComponent],
+  // standalone: true,
+  // imports: [CommonModule, CoursesListItemComponent],
   templateUrl: './courses.component.html',
   styleUrls: ['./courses.component.scss'],
 })

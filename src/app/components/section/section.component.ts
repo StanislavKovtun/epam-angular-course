@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+// import { CommonModule } from '@angular/common';
+// import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-section',
-  standalone: true,
-  imports: [CommonModule, FormsModule],
+  // standalone: true,
+  // imports: [CommonModule, FormsModule],
   templateUrl: './section.component.html',
   styleUrls: ['./section.component.scss'],
 })
