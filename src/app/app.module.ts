@@ -12,18 +12,24 @@ import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.compo
 import { CoursesPageComponent } from './components/courses-page/courses-page.component';
 import { LoginComponent } from './components/login/login.component';
 import { SectionComponent } from './components/section/section.component';
+import { CoursesEditItemComponent } from './components/courses/courses-edit-item/courses-edit-item.component';
+import { CoursesListItemComponent } from './components/courses/courses-list-item/courses-list-item.component';
+import { CoursesNewItemComponent } from './components/courses/courses-new-item/courses-new-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    LogoComponent,
+    // HeaderComponent,
+    // LogoComponent,
     FooterComponent,
-    CoursesComponent,
-    BreadcrumbsComponent,
-    CoursesPageComponent,
-    LoginComponent,
-    SectionComponent
+    // CoursesComponent,
+    // BreadcrumbsComponent,
+    // CoursesPageComponent,
+    // LoginComponent,
+    // SectionComponent,
+    // CoursesEditItemComponent,
+    // CoursesListItemComponent,
+    // CoursesNewItemComponent
   ],
   imports: [
     BrowserModule,

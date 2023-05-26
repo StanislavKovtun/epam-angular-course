@@ -1,0 +1,22 @@
+// import { Component } from '@angular/core';
+
+// @Component({
+//   selector: 'app-courses-edit-item',
+//   templateUrl: './courses-edit-item.component.html',
+//   styleUrls: ['./courses-edit-item.component.scss']
+// })
+// export class CoursesEditItemComponent {
+
+// }
+
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: 'app-courses-edit-item',
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './courses-edit-item.component.html',
+  styleUrls: ['./courses-edit-item.component.scss'],
+})
+export class CoursesEditItemComponent {}

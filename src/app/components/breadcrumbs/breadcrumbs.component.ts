@@ -1,10 +1,22 @@
+// import { Component } from '@angular/core';
+
+// @Component({
+//   selector: 'app-breadcrumbs',
+//   templateUrl: './breadcrumbs.component.html',
+//   styleUrls: ['./breadcrumbs.component.scss']
+// })
+// export class BreadcrumbsComponent {
+
+// }
+
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-breadcrumbs',
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './breadcrumbs.component.html',
-  styleUrls: ['./breadcrumbs.component.scss']
+  styleUrls: ['./breadcrumbs.component.scss'],
 })
-export class BreadcrumbsComponent {
-
-}
+export class BreadcrumbsComponent {}
