@@ -16,6 +16,7 @@ import { CoursesEditItemComponent } from './components/courses/courses-edit-item
 import { CoursesListItemComponent } from './components/courses/courses-list-item/courses-list-item.component';
 import { CoursesNewItemComponent } from './components/courses/courses-new-item/courses-new-item.component';
 import { FormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
