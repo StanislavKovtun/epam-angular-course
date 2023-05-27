@@ -13,8 +13,8 @@ export class AppComponent {
 // import { Component } from '@angular/core';
 // import { RouterOutlet } from '@angular/router';
 // import { CommonModule } from '@angular/common';
-// import { CoursesPageComponent } from './modules/courses-page/courses-page.component';
-// import { FooterComponent } from './modules/footer/footer.component';
+// import { CoursesPageComponent } from './components/courses-page/courses-page.component';
+// import { FooterComponent } from './components/footer/footer.component';
 
 // @Component({
 //   selector: 'app-root',
