@@ -14,7 +14,7 @@ export const courses: ICourse[] = [
     title: 'Course 2',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odio!',
-      creationDate: '2023-05-23',
+      creationDate: '2023-05-20',
     duration: 90,
   },
   {
