@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './modules/header/header.component';
-import { LogoComponent } from './modules/logo/logo.component';
+import { LogoComponent } from './modules/header/logo/logo.component';
 import { FooterComponent } from './modules/footer/footer.component';
 import { CoursesComponent } from './modules/courses/courses.component';
 import { BreadcrumbsComponent } from './modules/breadcrumbs/breadcrumbs.component';
