@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CoursesListItemComponent } from './courses-list-item.component';
+import { CoursesItemComponent } from './courses-item.component';
 
 describe('CoursesListItemComponent', () => {
-  let component: CoursesListItemComponent;
-  let fixture: ComponentFixture<CoursesListItemComponent>;
+  let component: CoursesItemComponent;
+  let fixture: ComponentFixture<CoursesItemComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [CoursesListItemComponent]
+      declarations: [CoursesItemComponent]
     });
-    fixture = TestBed.createComponent(CoursesListItemComponent);
+    fixture = TestBed.createComponent(CoursesItemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -3,13 +3,13 @@ import { Component } from '@angular/core';
 // import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-section',
+  selector: 'app-search',
   // standalone: true,
   // imports: [CommonModule, FormsModule],
-  templateUrl: './section.component.html',
-  styleUrls: ['./section.component.scss'],
+  templateUrl: './search.component.html',
+  styleUrls: ['./search.component.scss'],
 })
-export class SectionComponent {
+export class SearchComponent {
   searchValue: string | undefined = undefined;
 
   onSearchClick(): void {

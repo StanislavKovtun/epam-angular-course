@@ -4,13 +4,13 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { ICourse } from 'src/app/shared/interfaces/course';
 
 @Component({
-  selector: 'app-courses-list-item',
+  selector: 'app-courses-item',
   // standalone: true,
   // imports: [CommonModule],
-  templateUrl: './courses-list-item.component.html',
-  styleUrls: ['./courses-list-item.component.scss'],
+  templateUrl: './courses-item.component.html',
+  styleUrls: ['./courses-item.component.scss'],
 })
-export class CoursesListItemComponent {
+export class CoursesItemComponent {
   @Input() courseItem: ICourse | undefined = undefined;
   @Output() deleteCourse = new EventEmitter<string | number>();
 
