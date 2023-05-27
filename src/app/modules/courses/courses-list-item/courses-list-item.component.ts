@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 // import { CommonModule } from '@angular/common';
 
-import { ICourse } from 'src/app/common/interfaces/course';
+import { ICourse } from 'src/app/shared/interfaces/course';
 
 @Component({
   selector: 'app-courses-list-item',

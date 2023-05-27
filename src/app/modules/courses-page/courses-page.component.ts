@@ -6,8 +6,8 @@ import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 // import { CoursesComponent } from '../courses/courses.component';
 // import { SectionComponent } from '../section/section.component';
 
-import { courses } from 'src/app/common/mock/courses';
-import { ICourse } from 'src/app/common/interfaces/course';
+import { courses } from 'src/app/shared/mock/courses';
+import { ICourse } from 'src/app/shared/interfaces/course';
 
 @Component({
   selector: 'app-courses-page',
