@@ -7,16 +7,3 @@
    padding-right: 40px;
    margin: 0;
 }
-
-.load-more{
-    margin-top: 20px;
-    background-color: map-get($colors, 'white');
-    padding: 20px;
-    border-radius: 3px;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    border: none;
-    width: 100%;
-    color: map-get($colors, 'blue');
-    text-decoration: underline;
-}
