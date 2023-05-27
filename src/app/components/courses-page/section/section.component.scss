@@ -1,4 +1,6 @@
-@use '../../../styles/variables' as *;
+@use '../../../../styles/variables' as *;
+
+$search-image: '../../../../assets/images/search.svg';
 
 .section {
     background-color: map-get($colors, 'signal-white');
