@@ -15,7 +15,6 @@ import { LoginComponent } from './components/login/login.component';
 import { SearchComponent } from './components/courses-page/search/search.component';
 import { CoursesItemComponent } from './components/courses-page/courses/courses-item/courses-item.component';
 import { FormsModule } from '@angular/forms';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -34,8 +33,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    FontAwesomeModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

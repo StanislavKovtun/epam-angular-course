@@ -9,6 +9,7 @@ export class ButtonComponent {
   @Input() label?: string;
   @Input() buttonClass?: string;
   @Output() clicked: EventEmitter<void> = new EventEmitter<void>();
+  @Input() fontawesome?: string;
 
   onClick(): void {
     this.clicked.emit();
