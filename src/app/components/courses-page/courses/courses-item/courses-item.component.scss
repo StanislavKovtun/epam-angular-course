@@ -2,6 +2,7 @@
 
 .course-item{
     display: flex;
+    min-height: 85px;
     margin-top: 20px;
     background-color: map-get($colors, 'white');
     padding: 20px;

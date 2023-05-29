@@ -1,5 +1,9 @@
  @use '../../../../styles/variables' as *;
 
+nav {
+    background-color: map-get($colors, 'white');
+}
+
 .list {
       list-style-type: none;
       margin: 0;
