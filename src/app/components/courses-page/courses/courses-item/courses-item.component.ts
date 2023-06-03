@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
-import { ICourse } from 'src/app/shared/interfaces/course';
+import { ICourse } from '@shared/interfaces/course';
 
 @Component({
   selector: 'app-courses-item',
@@ -8,12 +8,12 @@ import { ICourse } from 'src/app/shared/interfaces/course';
   styleUrls: ['./courses-item.component.scss'],
 })
 export class CoursesItemComponent {
-  @Input() courseItem: ICourse | undefined = undefined;
-  @Output() deleteCourse = new EventEmitter<string | number>();
+  @Input() courseItem?: ICourse;
+  @Output() deleteCourse: EventEmitter<string | number> = new EventEmitter<string | number>();
 
   onDeleteCouse(course: ICourse | undefined): void {
     const id = course?.id;
-    if (id !== undefined) {
+    if (id) {
       this.deleteCourse.emit(id);
     }
   }

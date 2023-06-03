@@ -1,7 +1,8 @@
 import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 
-import { courses } from 'src/app/shared/mock/courses';
-import { ICourse } from 'src/app/shared/interfaces/course';
+import { ICourse } from '@shared/interfaces/course';
+
+import { courses } from '@shared/mock/courses';
 
 @Component({
   selector: 'app-courses-page',
@@ -9,7 +10,7 @@ import { ICourse } from 'src/app/shared/interfaces/course';
   styleUrls: ['./courses-page.component.scss'],
 })
 export class CoursesPageComponent implements OnInit, OnChanges {
-  coursesArray: ICourse[] = [];
+  courses: ICourse[] = [];
 
   constructor() {
     console.log('Constructor');
@@ -22,10 +23,10 @@ export class CoursesPageComponent implements OnInit, OnChanges {
 
   ngOnInit(): void {
     console.log('ngOnInit');
-    this.coursesArray = courses;
+    this.courses = courses;
   }
 
-  onDeleteCourseItem(id: number | string | undefined): void {
+  onDeleteCourseItem(id: number | string ): void {
     console.log(id);
   }
 }
