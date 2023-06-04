@@ -1,33 +1,63 @@
 @use '../../../../../styles/variables' as *;
 
-.course-item{
+.course-item {
     display: flex;
     min-height: 85px;
     margin-top: 20px;
     background-color: map-get($colors, 'white');
     padding: 20px;
     border-radius: 3px;
-    align-items: center;
+    //align-items: left;
     box-shadow: map-get($colors, 'black') 0px 1px 4px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
-.course-info{
+.course-info {
     flex-basis: 80%;
     padding-right: 10px;
 }
 
-.course-header{
+.buttons-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    @media (max-width: 768px) {
+        padding-top: 10px;
+    }
+}
+
+.course-header {
     display: flex;
     justify-content: space-between;
     padding-right: 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column-reverse;
+    }
+
 }
 
-.duration-and-date{
+.duration-and-date {
     display: flex;
     list-style-type: none;
+    justify-content: space-between;
+    padding-left: 0;
+
+    .date {
+        min-width: 120px;
+    }
+
+    .length {
+        min-width: 80px;
+    }
 }
 
-.fa-clock, .fa-calendar-days{
+.fa-clock,
+.fa-calendar-days {
     color: map-get($colors, 'agate-grey');
     margin-left: 10px;
     margin-right: 10px;
