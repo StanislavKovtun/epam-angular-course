@@ -1,0 +1,15 @@
+<div class="search-panel">
+    <form>
+      <input
+        type="text"
+        name="search"
+        placeholder="Text to search"
+        class="search-input"
+        [(ngModel)]="searchValue"
+      />
+      <button class="search-button" (click)="onSearchClick()">Search</button>
+    </form>
+    <div class="add-course-wrapper">
+      <app-button label=" Add course" [buttonClass]="'course-button'" fontawesome="fa-solid fa-plus"></app-button>
+    </div>
+  </div>

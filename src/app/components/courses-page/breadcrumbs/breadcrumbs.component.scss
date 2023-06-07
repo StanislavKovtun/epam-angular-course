@@ -1,0 +1,18 @@
+ @use '../../../../styles/variables' as *;
+
+nav {
+    background-color: map-get($colors, 'white');
+}
+
+.list {
+      list-style-type: none;
+      margin: 0;
+      padding: 15px 0 15px 40px;
+}
+
+.link {
+     text-decoration: none;
+     color: map-get($colors, 'bright-grey');
+     font-weight: bolder;
+     font-size: 20px;
+}

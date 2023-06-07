@@ -1,0 +1,37 @@
+@use '../../../../styles/variables' as *;
+
+button {
+    cursor: pointer;
+}
+
+.course-button {
+    margin-left: 20px;
+    gap: 10px;
+    height: 35px;
+    padding: 10px;
+    min-width: 90px;
+    width: auto;
+    color: map-get($colors, 'white');
+    background-color: map-get($colors, 'light-blue');
+    display: flex;
+    border: none;
+    border-radius: 2px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.load-more {
+    margin-top: 20px;
+    height: 50px;
+    background-color: map-get($colors, 'white');
+    padding: 20px;
+    border-radius: 3px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: none;
+    width: 100%;
+    color: map-get($colors, 'blue');
+    text-decoration: underline;
+    text-transform: uppercase;
+}

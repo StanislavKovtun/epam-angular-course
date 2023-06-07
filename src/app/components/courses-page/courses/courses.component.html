@@ -1,1 +1,8 @@
-<p>courses works!</p>
+<div class="courses">
+    <app-courses-item
+      *ngFor="let course of coursesList; trackBy: trackByCourseId"
+      [courseItem]="course"
+      (deleteCourse)="onCouseDelete($event)"
+    ></app-courses-item>
+    <app-button label="Load more" (clicked)="onLoadMoreClick()" [buttonClass]="'load-more'"></app-button>
+  </div>

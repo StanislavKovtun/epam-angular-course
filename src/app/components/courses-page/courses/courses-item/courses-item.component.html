@@ -1,0 +1,18 @@
+<div class="course-item">
+    <div class="course-info">
+        <div class="course-header">
+            <h2>Video Course {{ courseItem?.id }}. {{ courseItem?.title }}</h2>
+            <ul class="duration-and-date">
+                <li class="length">
+                    <i class="fa-regular fa-clock fa-rotate-270"></i>{{ courseItem?.duration }}
+                </li>
+                <li class="date">
+                    <i class="fa-regular fa-calendar-days"></i>{{ courseItem?.creationDate }}
+                </li>
+            </ul>
+        </div>
+        {{ courseItem?.description }}
+    </div>
+    <app-button label="Edit" [buttonClass]="'course-button'" fontawesome="fa-sharp fa-solid fa-pen"></app-button>
+    <app-button label="Delete" (clicked)="onDeleteCouse(courseItem)" [buttonClass]="'course-button'" fontawesome="fa-solid fa-trash"></app-button>
+</div>
