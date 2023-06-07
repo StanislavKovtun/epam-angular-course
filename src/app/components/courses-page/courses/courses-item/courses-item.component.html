@@ -13,6 +13,9 @@
         </div>
         {{ courseItem?.description }}
     </div>
-    <app-button label="Edit" [buttonClass]="'course-button'" fontawesome="fa-sharp fa-solid fa-pen"></app-button>
-    <app-button label="Delete" (clicked)="onDeleteCouse(courseItem)" [buttonClass]="'course-button'" fontawesome="fa-solid fa-trash"></app-button>
+    <div class="buttons-group">
+        <app-button label="Edit" [buttonClass]="'course-button'" fontawesome="fa-sharp fa-solid fa-pen"></app-button>
+        <app-button label="Delete" (clicked)="onDeleteCouse(courseItem)" [buttonClass]="'course-button'"
+            fontawesome="fa-solid fa-trash"></app-button>
+    </div>
 </div>

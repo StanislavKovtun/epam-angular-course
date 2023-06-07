@@ -4,12 +4,13 @@ $search-image: '../../../../assets/images/search.svg';
 
 .search-panel {
     background-color: map-get($colors, 'signal-white');
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0;
-    margin-bottom: -20px;
-    padding-bottom: 20px;
+    padding: 20px 0px 0px 0px;
+    margin: 0 40px;
+    display: block;
+    //width: 100%;
+    form {
+        margin-right: 40px;
+    }
 }
 
 .search-input {
@@ -26,6 +27,13 @@ $search-image: '../../../../assets/images/search.svg';
     border-radius: 2px;
     width: 100%;
     max-width: 300px;
+    
+    @media (max-width: 768px) {
+        display: block;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
 }
 
 .search-input:focus {
